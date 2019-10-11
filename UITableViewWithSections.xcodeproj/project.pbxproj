@@ -13,6 +13,8 @@
 		DCCD0FE9234FA99F003C39BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCCD0FE7234FA99F003C39BA /* Main.storyboard */; };
 		DCCD0FEB234FA9A0003C39BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCCD0FEA234FA9A0003C39BA /* Assets.xcassets */; };
 		DCCD0FEE234FA9A0003C39BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCCD0FEC234FA9A0003C39BA /* LaunchScreen.storyboard */; };
+		DCCD0FF7234FAAD4003C39BA /* CoderInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCD0FF5234FAAD4003C39BA /* CoderInfoCell.swift */; };
+		DCCD0FF8234FAAD4003C39BA /* CoderInfoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCCD0FF6234FAAD4003C39BA /* CoderInfoCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		DCCD0FEA234FA9A0003C39BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DCCD0FED234FA9A0003C39BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DCCD0FEF234FA9A0003C39BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCCD0FF5234FAAD4003C39BA /* CoderInfoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoderInfoCell.swift; sourceTree = "<group>"; };
+		DCCD0FF6234FAAD4003C39BA /* CoderInfoCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CoderInfoCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				DCCD0FEA234FA9A0003C39BA /* Assets.xcassets */,
 				DCCD0FEC234FA9A0003C39BA /* LaunchScreen.storyboard */,
 				DCCD0FEF234FA9A0003C39BA /* Info.plist */,
+				DCCD0FF5234FAAD4003C39BA /* CoderInfoCell.swift */,
+				DCCD0FF6234FAAD4003C39BA /* CoderInfoCell.xib */,
 			);
 			path = UITableViewWithSections;
 			sourceTree = "<group>";
@@ -128,6 +134,7 @@
 				DCCD0FEE234FA9A0003C39BA /* LaunchScreen.storyboard in Resources */,
 				DCCD0FEB234FA9A0003C39BA /* Assets.xcassets in Resources */,
 				DCCD0FE9234FA99F003C39BA /* Main.storyboard in Resources */,
+				DCCD0FF8234FAAD4003C39BA /* CoderInfoCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,6 +148,7 @@
 				DCCD0FE6234FA99F003C39BA /* ViewController.swift in Sources */,
 				DCCD0FE2234FA99F003C39BA /* AppDelegate.swift in Sources */,
 				DCCD0FE4234FA99F003C39BA /* SceneDelegate.swift in Sources */,
+				DCCD0FF7234FAAD4003C39BA /* CoderInfoCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
